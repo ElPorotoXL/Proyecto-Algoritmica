@@ -23,7 +23,6 @@ header{
     top: 0;
 }
 .header__nav{
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,10 +30,10 @@ header{
 .header__nav-list{
     display: flex;
     justify-content: space-evenly;
-    gap: 9px;
+    gap: 20px;
 }
 .header__nav-list-item{
-    width: 80px;
+    width: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
