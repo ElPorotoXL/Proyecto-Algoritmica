@@ -34,7 +34,7 @@ header{
     gap: 9px;
 }
 .header__nav-list-item{
-    width: 100px;
+    width: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
