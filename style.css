@@ -84,6 +84,11 @@ main{
 }
 .main__info{
     font-size: 17px;
+    padding: 0;
+    margin: 12px;
+}
+.main__info:last-child {
+    margin-bottom: 30px;
 }
 
 /* ----------- MAIN ENDS ----------- */
@@ -145,6 +150,9 @@ section {
     position: relative;
     z-index: 1;
 }
+.types__item-info {
+    font-size: 17px;
+}
 
 /* --------------- TYPES END ------------- */
 
@@ -192,6 +200,7 @@ footer {
 @keyframes nav-scroll {
     from {
         height: 60px;
+        background-color: #e2e2e2;
     }
     to {
         height: 50px;
@@ -200,7 +209,7 @@ footer {
 }
 @keyframes link-scroll {
     from {
-        color: var(--dark-font-color);
+        color: var(--font-color);
     }
     to {
         opacity: 0.8;
@@ -225,7 +234,7 @@ footer {
         flex-direction: column;
         border-radius: 25px;
         background-color: #e2e2e2;
-        box-shadow: 0 0 50px #0009;
+        box-shadow: 0 0 40px #0009;
         margin: 30px 0;
     }
     .main__img-container {
