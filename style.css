@@ -200,7 +200,7 @@ footer {
 @keyframes nav-scroll {
     from {
         height: 60px;
-        background-color: #e2e2e2;
+        background-color: var(--bg-color);
     }
     to {
         height: 50px;
